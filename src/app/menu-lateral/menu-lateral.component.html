@@ -1,0 +1,23 @@
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand form-inline search">
+            <input type="text" class="form-control" placeholder="Pesquise Aqui">
+            <i class="material-icons">search</i>
+        </li>
+        <li class="form-inline">
+            <img src="./assets/img/language.png">
+            <a href="#">Painel de Gestão</a>
+        </li>
+        <li class="form-inline">
+            <img src="./assets/img/email_white.png">
+            <a href="#">Conta Digital</a>
+        </li>
+        <li class="form-inline">
+            <img src="./assets/img/refresh.png">
+            <a href="#">Ant. de Recebíveis</a>
+        </li>
+    </ul>
+</div>
+<app-acoes #acoes></app-acoes>
+<app-header></app-header>
+<app-home [acoes]="acoes.listaAcoes"></app-home>

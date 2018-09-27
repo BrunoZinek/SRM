@@ -1,0 +1,44 @@
+#logomarca{
+    height: 60px;
+}
+.header{
+    position: absolute;
+    right: 0;
+}
+.usuario, .slcUser{
+    color:#fff !important;
+    background-color: #00233d;
+    right: 0;
+}
+.slcUser{
+    padding: 0 30px;
+    margin: 0;
+    border: none;
+}
+.grpEcon{
+    height: 50px;
+    width: 180px;
+}
+select{
+    background-color: transparent;
+    border-color: #4997d1 !important;
+    border-radius: 0 !important;
+    width: max-content;
+    text-align-last: left;
+    text-align: left;
+    margin:5px 10px;
+    padding: 0 10px;
+    appearance: none;
+    background: url("/src/assets/img/double_set.png") no-repeat;
+    background-position:100% 50%; 
+    background-size: 20px;
+}
+.notify{
+    font-size: 20px;
+    padding: 15px;
+    background-color: #4997d1;
+}
+.user{
+    font-size: 25px;
+    padding: 5px;
+}

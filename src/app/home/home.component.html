@@ -1,0 +1,81 @@
+<div class="home">
+  <div class="caminho-pao">
+    <label class="small">Página Inicial > Painel de Gestão</label>
+  </div>
+  <div class="title">
+    <i class="material-icons">language</i>
+    <h1 class="text-primary">Painel de Gestão</h1>
+    <div class="form-inline produtos">
+      <label>Produto:</label>
+      <select class="form-control">
+        <option>Todos</option>
+      </select>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-header" style="color: black">Atalhos</div>
+          <div class="card-body">
+            <label>Operacional</label>
+            <div class="row">
+              <a href="#" class="btn btn-primary">Envio</a>
+              <a href="#" class="btn btn-primary">Assinatura</a>
+            </div>
+            <div class="row">
+              <a href="#" class="btn btn-primary">Envio de Duplicatas</a>
+              <a href="#" class="btn btn-primary">Assinatura Digital</a>
+            </div>
+            <div class="row">
+              <a href="#" class="btn btn-primary">Nova Operação</a>
+            </div>
+          </div>
+          <div class="card-body geral">
+            <label>Geral</label>
+            <div class="row">
+              <a href="#" class="btn btn-primary">Carteira</a>
+            </div>
+            <div class="row">
+              <a href="#" class="btn btn-primary">Instruções</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-header">
+            <label class="text-primary">Alertas</label>
+            <label class="periodo">Últimos 5 dias</label>
+          </div>
+          <table class="table">
+            <div class="card-body alerta">
+              <tbody>
+                <tr>
+                  <td style="border-top: none"><label>23 Notas Canceladas</label></td>
+                </tr>
+                <tr>
+                  <td><label>13 Notas Canceladas</label></td>
+                  <td><select class="form-control acao">
+                      <option value="" disabled>Ações</option>
+                      <option *ngFor="let act of acoes">{{act}}</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label>7 Assinaturas Digital</label></td>
+                  <td><select class="form-control acao">
+                      <option value="" disabled>Ações</option>
+                      <option *ngFor="let act of acoes">{{act}}</option>
+                    </select>
+                  </td>
+                </tr>
+              </tbody>
+            </div>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

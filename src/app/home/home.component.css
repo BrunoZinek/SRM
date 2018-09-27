@@ -1,0 +1,86 @@
+.home{
+    position: absolute;
+    right: 0;
+    background-color: #e8e8e8;
+    height: 100%;
+    width: 100%;
+}
+.caminho-pao label{
+    margin: 15px 25px 0 25px;
+    color: gray;
+}
+.title, .text-primary{
+    display: inline-block;
+    vertical-align: middle !important;
+    color: #00233d !important;
+}
+.title{
+    width: 100% !important;
+}
+.btn-primary{
+    background-color: #fff !important;
+    color: gray !important;
+    border-color: #4997d1 !important;
+    border-radius: 0 !important;
+}
+i{
+    font-size: 40px;
+    margin: 15px;
+}
+.produtos{
+    margin: 30px 15px;
+    float: right;
+    width: max-content;
+    vertical-align: middle;
+}
+.produtos label{
+    margin-right: 5px;
+}
+.produtos select{
+    background-color: transparent;
+}
+select{
+    border-color: #4997d1 !important;
+    border-radius: 0 !important;
+    width: 200px !important;
+    text-align-last: center;
+    text-align: center;
+    appearance: none;
+    background: url("/src/assets/img/double_set.png") no-repeat;
+    background-position:100% 50%; 
+    background-size: 20px;
+}
+select.acao{
+    padding-left: 5px;
+    background: url("/src/assets/img/single_set.png") no-repeat;
+    background-position:95% 40%; 
+    background-size: 10px;
+}
+.card .btn-primary {
+    margin: -10px 20px 10px 0;
+    width: 150px; 
+    font-size: 12px;
+}
+.card-body .row{
+    margin: 10px 0 !important;
+}
+.periodo{
+    float: right;
+    font-size: 10px;
+    vertical-align: middle;
+}
+.card-body label{
+    margin-bottom: -10px !important;
+    font-size: 15px;
+}
+.alerta select{
+    width: max-content !important;
+    height: max-content;
+}
+.card{
+    box-shadow: 2px 2px 2px 2px #ccc;
+    border-radius: 0;
+}
+.col-sm-6,.col-sm-4  {
+    padding-right: 0 !important;
+}
