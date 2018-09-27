@@ -1,6 +1,8 @@
 #logomarca{
     height: 60px;
+    margin-left: 240px; 
 }
+
 .header{
     position: absolute;
     right: 0;
