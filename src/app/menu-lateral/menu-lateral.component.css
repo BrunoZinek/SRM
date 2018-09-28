@@ -4,10 +4,13 @@ i {
     font-size: 50px;
     margin: 5px 0;
 }
-
+.recebiveis{
+    background: url("/src/assets/img/double_set_right.png") no-repeat 95% 50% ;
+    background-size: 15px;
+}
 img {
     width: 40px;
-    margin: 10px 0 10px 10px;
+    margin: 10px 0 10px 20px;
 }
 
 .search {
@@ -51,8 +54,13 @@ img {
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
+    height: 55px;
     background-color: #00233d;
     border-bottom: 1px solid #4997d1;
+}
+.sidebar-nav li.active {
+    background: url("/src/assets/img/set_beige_left.png") no-repeat 115% 50% ;
+    background-size: 60px;
 }
 ul.sidebar-nav {
     height: 100% !important;
@@ -63,7 +71,7 @@ ul.sidebar-nav {
     display: block;
     text-decoration: none;
     color: #fff;
-    text-indent: 10px;
+    text-indent: 20px;
 }
 
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
