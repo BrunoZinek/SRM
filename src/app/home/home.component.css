@@ -2,21 +2,29 @@
     position: absolute;
     right: 0;
     background-color: #e8e8e8;
-    height: 100%;
+    height: calc(100% - 60px);
     width: auto;
     left: 250px;
+}
+.title h1{
+    font-family: zap;
 }
 .caminho-pao label{
     margin: 15px 25px 0 25px;
     color: gray;
 }
-.title, .text-primary{
+.body, .text-primary{
     display: inline-block;
     vertical-align: middle !important;
     color: #00233d !important;
 }
-.title{
+.body{
     width: 100% !important;
+}
+.title{
+    align-items: center;
+    margin:0;
+    height: 100px;
 }
 .btn-primary{
     background-color: #fff !important;
@@ -29,16 +37,17 @@ i{
     margin: 15px;
 }
 img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin: 0 10px 10px 30px;
 }
 .produtos{
+    position: absolute;
+    right: 0;
+    top: 40px;
     margin: 30px 15px;
-    float: right;
-    width: max-content;
-    vertical-align: middle;
 }
+
 .produtos label{
     margin-right: 15px;
 }
@@ -58,34 +67,31 @@ select{
     background-size: 20px;
 }
 select.acao{
-    padding-left: 5px;
+    font-size: 12px;
+    width: 120px !important;
+    height: max-content;
     background: url("/src/assets/img/single_set.png") no-repeat;
     background-position:95% 40%; 
     background-size: 10px;
-}
-.atalho{
-    margin-left: 20px;
+    margin-left: 100px;
 }
 .card .btn-primary {
     margin: -10px 20px 10px 0;
     width: 150px; 
     font-size: 12px;
 }
-.card-body .row{
+.row{
     margin: 10px 0 !important;
 }
 .periodo{
     float: right;
+    margin-top: 5px;
     font-size: 10px;
     vertical-align: middle;
 }
 .card-body label{
     margin-bottom: -10px !important;
-    font-size: 15px;
-}
-.alerta select{
-    width: max-content !important;
-    height: max-content;
+    font-size: 12px;
 }
 .card{
     box-shadow: 2px 2px 2px 2px #ccc;
@@ -93,4 +99,36 @@ select.acao{
 }
 .col-sm-6,.col-sm-4  {
     padding-right: 0 !important;
+}
+.atalho .card{
+    position: relative;
+    height: 100%;
+}
+.card-body.operacional{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    padding: 2rem 1rem 0 1rem;
+}
+.card-body.geral{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    border-left: 1px solid rgba(211, 211, 211, 0.8);
+    padding: 2rem 1rem 0 2.5rem;
+}
+.card-body.alerta{
+    display: flex;
+}
+
+.card-body.alerta tbody{
+    margin: auto;
+}
+td{
+    vertical-align: middle;
+    text-align: left;
+}
+
+.col-sm-5 .card-header {
+    padding-bottom: 5px;
 }

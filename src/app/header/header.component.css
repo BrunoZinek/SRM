@@ -1,11 +1,14 @@
 #logomarca{
     height: 60px;
-    margin-left: 240px; 
+    margin-left: 260px; 
 }
 
 .header{
     position: absolute;
-    right: 0;
+    right: 1%;
+}
+.header label{
+    font-family: zap;
 }
 .usuario, .slcUser{
     color:#fff !important;
@@ -14,7 +17,7 @@
 }
 .slcUser{
     padding: 0 30px;
-    margin: 0;
+    margin: 5px 5px 5px 0;
     border: none;
 }
 .grpEcon{
@@ -36,11 +39,28 @@ select{
     background-size: 20px;
 }
 .notify{
+    position: relative;
     font-size: 20px;
     padding: 15px;
     background-color: #4997d1;
+    text-decoration: none;
+    color: white;
 }
 .user{
-    font-size: 25px;
-    padding: 5px;
+    font-size: 20px;
+    margin: 5px 0 auto 20px ;
+}
+.bdg{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.bdg[num]:after{
+    font-size: 15px;
+    content: attr(num);
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center
 }
